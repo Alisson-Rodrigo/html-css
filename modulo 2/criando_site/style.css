@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+
+@font-face {
+    font-family: 'FontePersonalizada';
+    src: url('fontes/idroid.otf') format('opentype');
+    /* Outras variações da fonte, como bold, italic, etc., podem ser adicionadas aqui */
+  }
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+section#contatos {
+    padding: 50px;
+    background-color: #eee;
+  }
+
+
+body {
+    background-color: #89CDA5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(#2d9c5d, #185533);
+    height: 150px;
+    padding: 20px;
+    
+}
+
+header > h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.712);
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    
+}
+
+header > p {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    font-size: 19px;
+}
+
+nav {
+    margin-top: -40px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    font-family: 'Konkhmer Sleokchher';
+    text-decoration: none;
+    font-size: 17px;
+    color: #a3e2bd;
+    padding: 5px;
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+
+nav > a:hover {
+    background-color: rgba(28, 197, 28, 0.651);
+    transition: all 0.4s ease-in-out;
+}
+
+nav > a:active {
+    background-color: rgba(4, 110, 4, 0.651);
+    color: white
+}
+
+nav > a:visited {
+    color: white;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+main img {
+    width: 100%;
+}
+
+.bug-droid {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+
+}
+
+
+.h1-site {
+    font-family: "FontePersonalizada";
+    font-size: 34px;
+    text-align: center;
+    margin: 10px 10px 10px -1px;
+    padding: 30px 0px 20px 0px;
+    color: #053f1e;
+    line-height: 1.5;
+
+
+}
+
+.paragrafos {
+    padding: 2px 0px 30px 0px;
+    font-size: 19px;
+    text-indent: 30px;
+    text-align: justify;
+    margin-right: 10px;
+    line-height: 1.5;
+
+}
+
+.h2-site {
+    background-image: linear-gradient(to right,rgba(81, 209, 81, 0.822),rgb(208, 221, 208));
+    border-radius: 10px;
+    padding: 5px;
+    color: #053f1e;
+    margin: 10px 10px 17px -1px;
+    font-family: "FontePersonalizada";
+    line-height: 1.5;
+
+}
+
+main a {
+    background-color: #2a855377;
+    padding: 2px;
+}
+
+
+main > article > aside {
+    display: inline-block;
+    font-size: 18px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    padding: 2px;
+    border-radius: 2px;
+    margin: 10px 10px 40px 10px;
+    line-height: 1.5;
+    
+}
+
+.irina{
+    text-align: center;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    font-size: 19px;
+    margin-right: 50px;
+    line-height: 1.5;
+
+}
+
+.videoYT {
+    background-color: #053f1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom:58%;
+    position: relative;
+}
+
+.videoYT > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.curiosidades {
+    background-color: #C5EBD6;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px 5px 0px 0px;    
+}
+
+
+aside > h3 {
+    border: black;
+    padding: 4px;
+    margin-right: -6px;
+    background-image: linear-gradient(to right ,#2a8553,#2FA866);
+    color: white;
+}
+
+aside > p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.listas {
+    display: inline-block;
+    padding: 30px 20px 0px 100px;
+}
+
+.lista2 {
+    display: inline-block;
+    padding: 30px 20px 0px 200px;
+}
+
+ul {
+    list-style-type: none;
+  }
+ul li:before {
+    content: '\2713'; /* Código Unicode para a marca de seleção */
+    margin-right: 0.5em;
+  }
+
+.paragrafo-fora-aside {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #053f1e;
+    color: white;
+}
+
+footer > a > p {
+    color: white;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: #a3e2bd;
+    transition: all 0.4s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+      background-color: #2d9c5d;
+      transform: scale(1);
+    }
+    50% {
+      background-color: #185533;
+      transform: scale(1.2);
+    }
+    100% {
+      background-color: #2d9c5d;
+      transform: scale(1);
+    }
+  }
+  
+  .link-git {
+    animation: pulsate 5s ease-in-out infinite;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  
