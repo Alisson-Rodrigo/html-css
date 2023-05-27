@@ -1,0 +1,18 @@
+@charset "UTF-8";
+ 
+body {
+    background-color: rgba(0, 0, 255, 0.288);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgba(60, 212, 21, 0.719);
+}
+
+p{
+    color: brown;
+}
+
+.alisson{
+    color: rgb(114, 38, 38);
+}

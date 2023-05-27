@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Konkhmer +Sleokchher & display=swap');
+body{
+    font-family: 'Konkhmer Sleokchher';
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+

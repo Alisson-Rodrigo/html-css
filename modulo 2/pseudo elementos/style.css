@@ -1,0 +1,30 @@
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(183, 0, 255);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(229, 255, 0);
+}
+
+a::after {
+    content: " (link)";
+    font-size: 0.8em;
+    color: gray;
+}
+
+a::after {
+    content: '<==';
+    color: #000;
+    text-decoration: underline;
+}
