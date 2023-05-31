@@ -1,0 +1,14 @@
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+
+table  td {
+    padding: 8px;
+    border: 1px solid black;   
+}
+
+.linha1 {
+    background-color: red;
+}
