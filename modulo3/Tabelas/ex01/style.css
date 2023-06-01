@@ -1,14 +1,18 @@
 table {
     width: 400px;
+    height: 400px;
     border-collapse: collapse;
 }
 
 
 table  td {
-    padding: 8px;
-    border: 1px solid black;   
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: top;
 }
 
 .linha1 {
-    background-color: red;
+    text-align: right;
+    
 }
