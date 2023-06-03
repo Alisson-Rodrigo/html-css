@@ -8,6 +8,11 @@ table {
 
 }
 
+caption {
+    padding: 3px;
+    text-align: center;
+}
+
 thead {
     background-color: lightgray;
 }
