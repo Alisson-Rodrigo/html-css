@@ -5,7 +5,11 @@ table {
     width: 700px;
     border-collapse: collapse;
     margin: auto;
+    overflow-x: scroll;
+}
 
+div#container {
+    overflow-x: scroll;
 }
 
 caption {
@@ -37,4 +41,5 @@ tbody  td, #num {
     margin-left: 100px;
     text-align: left;
 }
+
 
