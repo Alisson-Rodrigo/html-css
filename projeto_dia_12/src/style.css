@@ -45,8 +45,55 @@ header {
 
 .img-header {
     border-radius: 50%;
-    border: solid 1px #fff2e759;
     height: 72px;
+    border: solid 1px #fff2e759;
+
+}
+
+.media-play {
+    display: flex;
+    width: 350px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.contatos {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.img-contato {
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+}
+
+.media-play:hover {
+    color: #ECD6C4;
+    transition: 0.5s;
+}
+
+.texto-aside {
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    padding-bottom: 18px;
+    text-decoration: underline;
+    text-underline-offset: 0.4em; 
+}
+
+.botao-play {
+    height: 50px;
+    transition: 0.5s;
+}
+
+.botao-play:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .barra-de-navegação {
@@ -55,6 +102,7 @@ header {
     margin-top: 160px;
     margin-left: 100px;
     gap: 32px;
+
 
 }
 
@@ -88,7 +136,6 @@ header {
 
 .img-section{
     border-radius: 50%;
-    border: solid 1px #fff4f1;
     height: 450px;
     transition: 0.5s;
 }
@@ -121,7 +168,10 @@ section {
 
 section:hover {
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(1.02);
+    .img-section {
+        border: 1px solid #fff4f1;
+    }
 }
 
 
