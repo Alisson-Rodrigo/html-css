@@ -17,14 +17,17 @@ body {
     min-width: 100vh;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 
 .img-titulo {
     display: flex;
     align-items: center;
     margin-left: 300px;
     height: 190px;
-    
-
 }
 
 
@@ -37,6 +40,7 @@ header {
     justify-content: space-around;
     padding: 24px;
     height: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .img-header {
@@ -99,8 +103,6 @@ hr {
     transform: scale(1.1);
     transition: 0.5s;
 }
-
-
 
 section {
     display: flex;
@@ -168,6 +170,8 @@ footer {
 
 .img-rodape {
     display: flex;
+    border-top: 0.4px solid #fff2e741;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     height: 60px;
