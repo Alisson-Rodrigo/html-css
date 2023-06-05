@@ -26,7 +26,7 @@ html {
 .img-titulo {
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 380px;
     height: 190px;
 }
 
@@ -45,33 +45,54 @@ header {
 
 .img-header {
     border-radius: 50%;
+    position: absolute;
     height: 72px;
     border: solid 1px #fff2e759;
+    left: 30px;
+    bottom: 60px;
+}
 
+.img-header:hover {
+    transform: scale(1.010);
+    transition: 0.5s;
+    background-color: #ECD6C4;
 }
 
 .media-play {
     display: flex;
-    width: 350px;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
     margin-top: 10px;
     transition: 0.5s;
 }
 
-.contatos {
+.texto-aside,
+.botao-play {
+    margin-bottom: 10px;
+}
+
+#contatos {
     display: flex;
-    position: relative;
+    position: absolute;
+    left: 10px;
+    gap: 8px;
     flex-direction: column;
 }
 
-.img-contato {
-    height: 40px;
+.img-contato-insta {
     width: 40px;
-    transition: 0.5s;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 30%;
 }
+
+.img-contato-git {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
 
 .media-play:hover {
     color: #ECD6C4;
@@ -94,6 +115,19 @@ header {
 .botao-play:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+.img-contato-insta:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: wheat;
+}
+
+.img-contato-git:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: wheat;
+
 }
 
 .barra-de-navegação {
