@@ -48,7 +48,7 @@ header {
     position: absolute;
     height: 72px;
     border: solid 1px #fff2e759;
-    left: 30px;
+    left: 80px;
     bottom: 60px;
 }
 
@@ -74,7 +74,7 @@ header {
 #contatos {
     display: flex;
     position: absolute;
-    left: 10px;
+    left: 30px;
     gap: 8px;
     flex-direction: column;
     
