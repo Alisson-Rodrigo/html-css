@@ -132,28 +132,34 @@ header {
 }
 
 .barra-de-navegação {
-    position: sticky;
     display: flex;
     margin-top: 160px;
     margin-left: 100px;
-    gap: 32px;
+    gap: 20px;
+    transition: 0.5s;
+}
 
-
+.barra-de-navegação:hover .menu-item {
+    transition: 0.5s;
+    filter: blur(3px);
 }
 
 .menu-item {
+    display: block;
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 18px;
+    transition: 0.1s;
 }
 
 
-.menu-item:hover {
-    color: #ECD6C4;
+.barra-de-navegação .menu-item:hover{
+    transform: scale(1.01);
     transition: 0.5s;
+    color: #ECD6C4;
+    filter: blur(0px);
 }
-
 .conteudo {
     border-top: 0.4px solid #fff2e741;
     margin-bottom: 48px;
@@ -166,7 +172,6 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-
 }
 
 .img-section{
