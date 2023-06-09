@@ -187,7 +187,7 @@ hr {
 }
 
 .img-section:hover {
-    transform: scale(1.1);
+    transform: scale(1.050);
     transition: 0.5s;
 }
 
@@ -245,7 +245,10 @@ section:hover {
     text-align: justify;
     text-shadow: black 1px 1px 1px;
     border-bottom: 1px solid #fff2e741;
+    border-top: 1px solid #fff2e741;
+    padding-top: 20px;
     padding-bottom: 20px;
+
 
 }
 
