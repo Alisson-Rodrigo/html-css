@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, Datalist, textArea</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="get" autocomplete="on">
+
+        <p>
+            <label for="iestado">Estados:</label>
+            <select name="estado" id="iestado">
+                <optgroup label="Região sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="PI">Ṕiaui</option>
+                    <option value="CE">Ceara</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof">
+        </p>
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
