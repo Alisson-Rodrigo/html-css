@@ -21,6 +21,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    
 }
 
 main > img {
@@ -74,8 +75,25 @@ main div {
 
 .button-login {
     text-align: center;
+    padding: 20px;
 }
 
 .botao {
-    padding: 20px 80px 20px 80px;
+    border: none;
+    background-color: #2A508E;
+    color: white;
+    padding: 14px 78px 14px 85px;
+    margin-left: 64px;
+}
+
+.esqueceu {
+    display: inline-block;
+    color: #2A508E;
+    margin-top: 10px;
+    margin-left: 220px;
+
+}
+
+.esqueceu:hover {
+    text-decoration: underline;
 }
