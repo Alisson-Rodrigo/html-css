@@ -14,8 +14,8 @@ body {
 main {
     display: block;
     position: absolute;
-    height: 500px;
-    width: 400px;
+    height: 480px;
+    width: 380px;
     background-color: white;
     top: 50%;
     left: 50%;
@@ -77,5 +77,5 @@ main div {
 }
 
 .botao {
-    padding: 20px;
+    padding: 20px 80px 20px 80px;
 }
