@@ -72,3 +72,10 @@ main div {
     margin-left: 2px;
 }
 
+.button-login {
+    text-align: center;
+}
+
+.botao {
+    padding: 20px;
+}
