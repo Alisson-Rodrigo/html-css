@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -64,9 +65,11 @@ main div {
     padding: 10px;
     padding-top: 15px;
     margin-bottom: -10px;
+    box-shadow: none;
 }
 
 .input-pass {
+    box-shadow: none;
     background-color: white;
     padding-top: 15px;
     padding: 10px;
@@ -84,6 +87,10 @@ main div {
     color: white;
     padding: 14px 78px 14px 85px;
     margin-left: 64px;
+}
+
+.botao:hover {
+    background-color: #1E3A6B;
 }
 
 .esqueceu {

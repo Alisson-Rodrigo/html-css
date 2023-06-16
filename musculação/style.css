@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+.foto {
+    height: 100vh;
+    width: 100vw;
+} 
